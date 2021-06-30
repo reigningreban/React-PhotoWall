@@ -1,0 +1,13 @@
+@tailwind base;
+
+@layer base {
+  body{
+    @fontface{
+      font-family: Helvetica;
+    }
+  }
+ 
+}
+
+@tailwind components;
+@tailwind utilities;

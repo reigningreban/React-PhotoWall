@@ -1,0 +1,12 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-8xl;
+    @font-face{
+        font-family: Billabong;
+        src: local('Billabong') url(../fonts/Billabong.ttf) format("ttf");
+    }
+  }
+}
+
